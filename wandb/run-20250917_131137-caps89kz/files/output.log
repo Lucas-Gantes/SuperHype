@@ -1,0 +1,20 @@
+Logging metric:  node_degree_wasserstein_HYGENE
+Logging metric:  nb_nodes_HYGENE
+Logging metric:  edge_size_wasserstein_HYGENE
+Logging metric:  spectral_HYGENE
+Logging metric:  centrality_closeness_HYGENE
+Logging metric:  centrality_betweenness_HYGENE
+Logging metric:  centrality_harmonic_HYGENE
+Restored all states from the checkpoint at /home/ubuntu/hypergraph-generation/checkpoints/bookshelf_3649.ckpt
+/home/ubuntu/miniconda3/envs/hypergraph-generation3/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user.
+  warnings.warn(  # warn only once
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3649: X_CE: 0.000 -- E_CE: 0.600 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3649: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3650: X_CE: 0.000 -- E_CE: 0.103 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 27.0s
+Epoch 3650: None -- None
+Starting train epoch...
+
+Detected KeyboardInterrupt, attempting graceful shutdown ...

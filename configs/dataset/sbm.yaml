@@ -1,0 +1,17 @@
+name: sbm_custom
+remove_h: null
+datadir: 'data/sbm_custom/'
+
+multilabel: true
+
+
+baseline:
+  node_degree_wasserstein:
+    HYGENE: 0.475
+    HyperPLR: 1.592
+  edge_size_wasserstein:
+    HYGENE: 0.012
+    HyperPLR: 0.426
+  spectral:
+    HYGENE: 0.006
+    HyperPLR: 0.035

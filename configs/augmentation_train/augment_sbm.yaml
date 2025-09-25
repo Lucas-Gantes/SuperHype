@@ -1,0 +1,37 @@
+# Training settings
+# n_epochs: 5000
+n_epochs: 20000
+# n_epochs: 25
+# n_epochs: 10 # for debug
+# batch_size: 40  # for triplet attention
+batch_size: 32
+# lr: 0.0002
+# lr: 0.0002
+lr: 0.0001
+save_model: True
+num_workers: 0
+ema_decay: 0.999          # 'Amount of EMA decay, 0 means off. A reasonable value  is 0.999.'
+progress_bar: true
+weight_decay: 1e-12
+# optimizer: adamw # adamw,nadamw,nadam => nadamw for large batches, see http://arxiv.org/abs/2102.06356 for the use of nesterov momentum with large batches
+optimizer: nadamw
+# scheduler: OneCycleLR
+# scheduler: CosineAnnealingLR
+scheduler: null
+seed: 0
+display_memory_summary: false
+
+load_checkpoint: "SBM_best.ckpt"
+
+datadir: 'data/sbm_custom128x5_32_40_flexible_num_nodes/'
+num_graphs: 'sbm_custom128x5_32_40_flexible_num_nodes'
+
+data_augmentation: false
+change_rate: 0.1
+
+overriden_train: ["lr", "n_epochs", "batch_size", "ema_decay", "weight_decay", "optimizer", "scheduler"]
+overriden_dataset: ["datadir", "num_graphs"]
+
+only_augmentation: false
+
+freeze_layers: {"xeyTrLayers": 3, "XxTrLayers": 2, "YyTrLayers": 2, "YXTrLayers": 2}

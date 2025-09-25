@@ -1,0 +1,40 @@
+name: ego
+remove_h: null
+# datadir: 'data/sbm_custom128_32_40/'
+# num_graphs: '128_32_40'
+
+datadir: 'data/ego128x1_32_40_l3_flexible_num_nodes/'
+num_graphs: 'ego128x1_32_40_l3_flexible_num_nodes'
+
+multilabel: True
+post_processing: null
+# post_processing:
+#   max_clique_size: 5
+
+data_augmentation: false
+# The proportion of the dataset to re-project at every epoch. 
+# To re-project all the dataset every time, set this parameter to None.
+change_rate: 0.1  
+
+samples_per_epoch: 128
+num_layers: 30
+
+clique_loss_coef: null
+model_type: 'MultiLayerXEyTransformer'
+
+baseline:
+  node_degree_wasserstein:
+    HYGENE: 2.428
+  nb_nodes:
+    HYGENE: 68.38
+  edge_size_wasserstein:
+    HYGENE: 0.027
+  spectral:
+    HYGENE: 0.034
+  centrality_closeness:
+    HYGENE: 0.263
+  centrality_betweenness:
+    HYGENE: 0.009
+  centrality_harmonic:
+    HYGENE: 197.1
+  

@@ -1,0 +1,1 @@
+{"loss_term_0":-1361.865966796875,"_timestamp":1.7576862022063875e+09,"test/epoch_NLL":97416.9453125,"kl prior":0,"test/X_logp":NaN,"test/E_logp":NaN,"Estimator loss terms":-0.007271766662597656,"log_pn":-4.852030277252197,"_wandb":{"runtime":9},"batch_test_nll":1366.710693359375,"_step":41,"test/X_kl":0,"test/E_kl":16.993867874145508,"_runtime":6.339108821}

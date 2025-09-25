@@ -1,0 +1,31 @@
+name: hypertrees
+remove_h: null
+datadir: 'data/hypertrees1000x1_32_40_l1_flexible_num_nodes/'
+num_graphs: '1000x1_32_40_l1_flexible_num_nodes'
+
+multilabel: true
+post_processing: null
+
+data_augmentation: false
+samples_per_epoch: 128
+num_layers: 1
+
+clique_loss_coef: null
+
+baseline:
+  node_degree_wasserstein:
+    HYGENE: 0.059
+  edge_size_wasserstein:
+    HYGENE: 0.108
+  spectral:
+    HYGENE: 0.012
+  is_hypertree:
+    HYGENE: 0.775
+  nb_nodes_wasserstein:
+    HYGENE: 0.
+  centrality_closeness:
+    HYGENE: 0.041
+  centrality_betweenness:
+    HYGENE: 0.016
+  centrality_harmonic:
+    HYGENE: 1.099

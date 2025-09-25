@@ -1,0 +1,8 @@
+name: tuning_default
+
+find_optimal_lr: false
+find_optimal_lr_augmentation: false
+
+find_optimal_params: false
+
+max_lr: 0.01

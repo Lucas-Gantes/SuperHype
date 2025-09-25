@@ -1,0 +1,204 @@
+_wandb:
+    value:
+        cli_version: 0.20.1
+        m:
+            - "1": node_degree_wasserstein_HYGENE
+              "6":
+                - 3
+              "7": []
+            - "1": nb_nodes_HYGENE
+              "6":
+                - 3
+              "7": []
+            - "1": edge_size_wasserstein_HYGENE
+              "6":
+                - 3
+              "7": []
+            - "1": spectral_HYGENE
+              "6":
+                - 3
+              "7": []
+            - "1": centrality_closeness_HYGENE
+              "6":
+                - 3
+              "7": []
+            - "1": centrality_betweenness_HYGENE
+              "6":
+                - 3
+              "7": []
+            - "1": centrality_harmonic_HYGENE
+              "6":
+                - 3
+              "7": []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 1
+                - 5
+                - 9
+                - 30
+                - 50
+                - 53
+                - 77
+                - 103
+            "2":
+                - 1
+                - 5
+                - 9
+                - 30
+                - 50
+                - 53
+                - 77
+                - 103
+            "3":
+                - 3
+                - 7
+                - 13
+                - 16
+                - 55
+            "4": 3.10.18
+            "5": 0.20.1
+            "10":
+                - 20
+            "12": 0.20.1
+            "13": linux-x86_64
+dataset:
+    value:
+        baseline:
+            centrality_betweenness:
+                HYGENE: 0.004
+            centrality_closeness:
+                HYGENE: 0.204
+            centrality_harmonic:
+                HYGENE: 27.4
+            edge_size_wasserstein:
+                HYGENE: 0.034
+            nb_nodes:
+                HYGENE: 69.73
+            node_degree_wasserstein:
+                HYGENE: 1.05
+            spectral:
+                HYGENE: 0.068
+        change_rate: 0.5
+        clique_loss_coef: null
+        data_augmentation: false
+        datadir: data/meshBookshelf128x1_32_40_l6_flexible_num_nodes/
+        model_type: MultiLayerXEyTransformer
+        multilabel: true
+        name: meshBookshelf
+        num_graphs: meshBookshelf128x1_32_40_l6_flexible_num_nodes
+        num_layers: 6
+        post_processing: null
+        remove_h: null
+        samples_per_epoch: 128
+general:
+    value:
+        chains_to_save: 1
+        check_val_every_n_epochs: 50
+        detect_anomaly: false
+        evaluate_all_checkpoints: false
+        final_model_chains_to_save: 1
+        final_model_samples_to_generate: 1000
+        final_model_samples_to_save: 2
+        gpus: 1
+        log_every_steps: 50
+        metrics:
+            - node_degree
+            - edge_size
+            - spectral
+            - clique_size
+            - uniqueness
+            - novelty
+            - nb_nodes
+            - centrality_closeness
+            - centrality_betweenness
+            - centrality_harmonic
+        name: graph-tf-model_resume
+        number_chain_steps: 1
+        resume: null
+        sample_every_val: 10
+        samples_to_generate: 200
+        samples_to_save: 20
+        test_only: /home/ubuntu/hypergraph-generation/checkpoints/bookshelf_last.ckpt
+        val_check_interval: null
+        wandb: online
+model:
+    value:
+        clip_values:
+            edges: 100
+            layers: 10000
+            nodes: 1000
+        clique_sizes:
+            - 3
+            - 4
+        diffusion_noise_schedule: cosine
+        diffusion_steps: 500
+        extra_features: cliques
+        extra_features_algorithm: parallel
+        hidden_dims:
+            dX: 512
+            dY: 256
+            de: 64
+            dim_ffX_Xx: 1024
+            dim_ffX_YX: 1024
+            dim_ffX_concat: 1024
+            dim_ffY_YX: 512
+            dim_ffY_Yy: 512
+            dim_ffY_concat: 512
+            dim_ffe_concat: 128
+            dim_ffe_xey: 128
+            dim_ffx_Xx: 512
+            dim_ffx_concat: 512
+            dim_ffx_xey: 512
+            dim_ffy_Yy: 256
+            dim_ffy_concat: 256
+            dim_ffy_xey: 256
+            dx: 256
+            dy: 128
+            n_head_Xx: 16
+            n_head_YX: 16
+            n_head_Yy: 16
+            n_head_xey: 16
+        hidden_mlp_dims:
+            X: 512
+            "Y": 256
+            e: 128
+            x: 256
+            "y": 256
+        kernel_coef: null
+        lambda_train:
+            - 5
+            - 0
+            - 1
+            - 0
+        model: graph_tf
+        model_type: GraphSuperpositionTransformerv2
+        n_layers: 5
+        parallel_model: false
+        single_layer: false
+        transition: marginal
+        triplet_interactions: aggregation
+        type: discrete
+train:
+    value:
+        batch_size: 1
+        clip_grad: 1
+        display_memory_summary: false
+        ema_decay: 0.999
+        lr: 0.0001
+        n_epochs: 30000
+        num_workers: 0
+        optimizer: nadamw
+        progress_bar: true
+        save_model: true
+        scheduler: null
+        seed: 0
+        weight_BCE: 1
+        weight_decay: 1e-12
+tuning:
+    value:
+        find_optimal_lr: true
+        find_optimal_lr_augmentation: false
+        find_optimal_params: false
+        max_lr: 0.01
+        name: tuning_default

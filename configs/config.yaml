@@ -1,0 +1,16 @@
+defaults:
+    - _self_
+    - general : general_mesh
+    - model : model_mesh
+    # - model : discrete
+    - train : train_mesh
+    # - augmentation_train : augment_sbm
+    - dataset : meshBookshelf
+    # - tuning : tuning_default
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ../outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}-${general.name}
+    

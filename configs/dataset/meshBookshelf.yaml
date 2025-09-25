@@ -1,0 +1,40 @@
+name: meshBookshelf
+remove_h: null
+# datadir: 'data/sbm_custom128_32_40/'
+# num_graphs: '128_32_40'
+
+datadir: 'data/meshBookshelf128x1_32_40_l6_flexible_num_nodes/'
+num_graphs: 'meshBookshelf128x1_32_40_l6_flexible_num_nodes'
+
+multilabel: True
+post_processing: null
+# post_processing:
+#   max_clique_size: 5
+
+data_augmentation: false
+# The proportion of the dataset to re-project at every epoch. 
+# To re-project all the dataset every time, set this parameter to None.
+change_rate: 0.5  
+
+samples_per_epoch: 128
+num_layers: 6
+
+clique_loss_coef: null
+model_type: 'MultiLayerXEyTransformer'
+
+baseline:
+  node_degree_wasserstein:
+    HYGENE: 1.050
+  nb_nodes:
+    HYGENE: 69.73
+  edge_size_wasserstein:
+    HYGENE: 0.034
+  spectral:
+    HYGENE: 0.068
+  centrality_closeness:
+    HYGENE: 0.204
+  centrality_betweenness:
+    HYGENE: 0.004
+  centrality_harmonic:
+    HYGENE: 27.40
+  

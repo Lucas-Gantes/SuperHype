@@ -1,0 +1,21 @@
+name: custom_dataset
+remove_h: null
+datadir: 'data/custom_dataset/'
+
+multilabel: true
+post_processing:
+  max_clique_size: 5
+
+clique_loss_coef: [1., 1.]
+
+
+baseline:
+  node_degree_wasserstein:
+    HYGENE: 0.475
+    HyperPLR: 1.592
+  edge_size_wasserstein:
+    HYGENE: 0.012
+    HyperPLR: 0.426
+  spectral:
+    HYGENE: 0.006
+    HyperPLR: 0.035

@@ -1,0 +1,1 @@
+{"_wandb":{"runtime":1001},"test/E_kl":17.240093231201172,"log_pn":-4.852030277252197,"_timestamp":1.757622262624738e+09,"test/epoch_NLL":95957.796875,"batch_test_nll":18507.078125,"_step":21,"test/X_logp":NaN,"test/E_logp":NaN,"Estimator loss terms":11839.4541015625,"loss_term_0":-6662.77197265625,"test/X_kl":0,"kl prior":0,"_runtime":6.5374108490000005}

@@ -1,0 +1,69 @@
+# Model settings
+type: 'discrete'
+transition: 'marginal'                          # uniform or marginal
+model: 'graph_tf'
+diffusion_steps: 500
+# diffusion_steps: 10
+diffusion_noise_schedule: 'cosine'              # 'cosine', 'polynomial_2'
+n_layers: 5
+
+extra_features: 'cliques'        # 'cliques' or null
+extra_features_algorithm: 'parallel'  # 'sequential' or 'parallel'
+clique_sizes: [3, 4]  # Sizes of cliques to compute
+clip_values: {'edges': 100, 'nodes': 1000, 'layers': 10000}  # Clip values for edges, nodes, and layers in the clique features
+
+model_type: 'GraphSuperpositionTransformerv2'
+parallel_model: false
+kernel_coef: null
+triplet_interactions: 'aggregation'
+single_layer: false
+
+
+
+
+# The dimensions should satisfy dx % n_head == 0
+# hidden_dims : {'dx': 256, 'de': 64, 'dy': 64, 'n_head': 8, 'dim_ffX': 256, 'dim_ffE': 128, 'dim_ffy': 128}
+
+# For the graphs with several layers
+hidden_mlp_dims: {'X': 512, 'Y': 256, 'e': 128, 'x':256, 'y': 256}
+
+hidden_dims : {'dX': 512, 'dY': 256, 'de': 64, 'dx': 256, 'dy': 128,
+               'n_head_xey': 16, 'n_head_Xx': 16, 'n_head_Yy': 16, 'n_head_YX': 16,
+               'dim_ffx_xey': 512, 'dim_ffe_xey': 128, 'dim_ffy_xey': 256, 
+               'dim_ffX_concat': 1024, 'dim_ffx_concat': 512, 'dim_ffe_concat': 128, 
+               'dim_ffY_concat': 512, 'dim_ffy_concat': 256,
+               'dim_ffX_Xx': 1024, 'dim_ffx_Xx': 512,
+               'dim_ffY_Yy': 512, 'dim_ffy_Yy': 256, 
+               'dim_ffY_YX': 512, 'dim_ffX_YX': 1024}
+
+# Denser network
+# hidden_mlp_dims: {'X': 1024, 'Y': 512, 'e': 256, 'x':512, 'y': 256}
+# hidden_dims : {'dX': 512, 'dY': 256, 'de': 128, 'dx': 256, 'dy': 128,
+#                'n_head_xey': 16, 'n_head_Xx': 16, 'n_head_Yy': 16, 'n_head_YX': 16,
+#                'dim_ffx_xey': 512, 'dim_ffe_xey': 256, 'dim_ffy_xey': 256, 
+#                'dim_ffX_concat': 2048, 'dim_ffx_concat': 1024, 'dim_ffe_concat': 512, 
+#                'dim_ffY_concat': 1024, 'dim_ffy_concat': 512,
+#                'dim_ffX_Xx': 1024, 'dim_ffx_Xx': 512,
+#                'dim_ffY_Yy': 512, 'dim_ffy_Yy': 256, 
+#                'dim_ffY_YX': 512, 'dim_ffX_YX': 1024}
+
+# Even denser network
+# hidden_mlp_dims: {'X': 1024, 'Y': 512, 'e': 512, 'x':1024, 'y': 256}
+# hidden_dims : {'dX': 512, 'dY': 256, 'de': 256, 'dx': 512, 'dy': 128,
+#                'n_head_xey': 16, 'n_head_Xx': 16, 'n_head_Yy': 16, 'n_head_YX': 16,
+#                'dim_ffx_xey': 1024, 'dim_ffe_xey': 512, 'dim_ffy_xey': 256, 
+#                'dim_ffX_concat': 2048, 'dim_ffx_concat': 1024, 'dim_ffe_concat': 512, 
+#                'dim_ffY_concat': 1024, 'dim_ffy_concat': 512,
+#                'dim_ffX_Xx': 1024, 'dim_ffx_Xx': 1024,
+#                'dim_ffY_Yy': 512, 'dim_ffy_Yy': 256, 
+#                'dim_ffY_YX': 512, 'dim_ffX_YX': 1024}
+
+# For the hypertrees
+# hidden_dims : {'dX': 512, 'dY': 256, 'de': 256, 'dx': 512, 'dy': 128,
+#                'n_head_xey': 16, 'n_head_Xx': 16, 'n_head_Yy': 16, 'n_head_YX': 16,
+#                'dim_ffx_xey': 1024, 'dim_ffe_xey': 512, 'dim_ffy_xey': 256, 
+#                'dim_ffX_Xx': 1024, 'dim_ffx_Xx': 512,
+#                'dim_ffY_Yy': 512, 'dim_ffy_Yy': 256, 
+#                'dim_ffY_YX': 512, 'dim_ffX_YX': 1024}
+
+lambda_train: [5, 0, 1, 0]

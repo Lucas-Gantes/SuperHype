@@ -1,0 +1,1461 @@
+Logging metric:  node_degree_wasserstein_HYGENE
+Logging metric:  nb_nodes_HYGENE
+Logging metric:  edge_size_wasserstein_HYGENE
+Logging metric:  spectral_HYGENE
+Logging metric:  centrality_closeness_HYGENE
+Logging metric:  centrality_betweenness_HYGENE
+Logging metric:  centrality_harmonic_HYGENE
+Restored all states from the checkpoint at /home/ubuntu/hypergraph-generation/checkpoints/bookshelf_3649.ckpt
+/home/ubuntu/miniconda3/envs/hypergraph-generation3/lib/python3.10/site-packages/torch/distributed/distributed_c10d.py:4631: UserWarning: No device id is provided via `init_process_group` or `barrier `. Using the current device set by the user.
+  warnings.warn(  # warn only once
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3649: X_CE: 0.000 -- E_CE: 0.312 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 16.1s
+Epoch 3649: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3650: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3650: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3651: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3651: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3652: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3652: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3653: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3653: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3654: X_CE: 0.000 -- E_CE: 0.264 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3654: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3655: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3655: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3656: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3656: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3657: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3657: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3658: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3658: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3659: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3659: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3660: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3660: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3661: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3661: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3662: X_CE: 0.000 -- E_CE: 0.291 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3662: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3663: X_CE: 0.000 -- E_CE: 0.269 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3663: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3664: X_CE: 0.000 -- E_CE: 0.258 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.2s
+Epoch 3664: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3665: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3665: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3666: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3666: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3667: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3667: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3668: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3668: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3669: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3669: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3670: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3670: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3671: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3671: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3672: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3672: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3673: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3673: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3674: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3674: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3675: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3675: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3676: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3676: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3677: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3677: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3678: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3678: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3679: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3679: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3680: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3680: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3681: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3681: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3682: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3682: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3683: X_CE: 0.000 -- E_CE: 0.296 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3683: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3684: X_CE: 0.000 -- E_CE: 0.247 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.0s
+Epoch 3684: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3685: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3685: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3686: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3686: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3687: X_CE: 0.000 -- E_CE: 0.257 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3687: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3688: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3688: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3689: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3689: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3690: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3690: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3691: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3691: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3692: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3692: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3693: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3693: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3694: X_CE: 0.000 -- E_CE: 0.294 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3694: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3695: X_CE: 0.000 -- E_CE: 0.267 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3695: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3696: X_CE: 0.000 -- E_CE: 0.293 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3696: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3697: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3697: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3698: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3698: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3699: Val NLL 84352.45 -- Val Atom type KL 0.00 --  Val Edge type KL: 9224.15
+Val loss: 84352.4531 	 Best val loss:  84352.4531
+
+Training weights restored
+Epoch 3699, global step 470400: 'val/epoch_NLL' reached 84352.45312 (best 84352.45312), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3699-v1.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3699: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 35.2s
+Epoch 3699: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3700: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3700: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3701: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3701: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3702: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3702: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3703: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3703: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3704: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3704: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3705: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3705: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3706: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3706: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3707: X_CE: 0.000 -- E_CE: 0.286 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3707: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3708: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3708: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3709: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3709: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3710: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3710: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3711: X_CE: 0.000 -- E_CE: 0.255 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3711: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3712: X_CE: 0.000 -- E_CE: 0.291 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3712: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3713: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3713: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3714: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3714: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3715: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3715: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3716: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3716: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3717: X_CE: 0.000 -- E_CE: 0.297 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3717: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3718: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3718: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3719: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3719: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3720: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3720: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3721: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3721: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3722: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.5s
+Epoch 3722: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3723: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3723: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3724: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3724: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3725: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3725: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3726: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3726: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3727: X_CE: 0.000 -- E_CE: 0.269 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3727: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3728: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3728: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3729: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3729: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3730: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3730: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3731: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3731: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3732: X_CE: 0.000 -- E_CE: 0.294 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.5s
+Epoch 3732: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3733: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3733: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3734: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3734: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3735: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3735: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3736: X_CE: 0.000 -- E_CE: 0.269 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3736: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3737: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.6s
+Epoch 3737: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3738: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.5s
+Epoch 3738: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3739: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3739: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3740: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3740: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3741: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3741: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3742: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3742: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3743: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3743: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3744: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3744: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3745: X_CE: 0.000 -- E_CE: 0.286 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3745: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3746: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3746: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3747: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3747: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3748: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3748: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3749: Val NLL 86026.41 -- Val Atom type KL 0.00 --  Val Edge type KL: 9293.69
+Val loss: 86026.4062 	 Best val loss:  84352.4531
+
+Training weights restored
+Epoch 3749, global step 473600: 'val/epoch_NLL' reached 86026.40625 (best 84352.45312), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3749.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3749: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 35.5s
+Epoch 3749: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3750: X_CE: 0.000 -- E_CE: 0.261 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3750: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3751: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3751: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3752: X_CE: 0.000 -- E_CE: 0.291 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3752: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3753: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3753: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3754: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3754: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3755: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3755: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3756: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3756: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3757: X_CE: 0.000 -- E_CE: 0.263 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.6s
+Epoch 3757: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3758: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3758: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3759: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3759: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3760: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3760: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3761: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3761: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3762: X_CE: 0.000 -- E_CE: 0.268 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.4s
+Epoch 3762: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3763: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3763: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3764: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3764: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3765: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3765: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3766: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3766: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3767: X_CE: 0.000 -- E_CE: 0.297 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3767: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3768: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3768: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3769: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3769: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3770: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3770: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3771: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3771: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3772: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3772: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3773: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3773: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3774: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3774: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3775: X_CE: 0.000 -- E_CE: 0.268 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3775: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3776: X_CE: 0.000 -- E_CE: 0.268 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3776: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3777: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3777: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3778: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.7s
+Epoch 3778: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3779: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3779: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3780: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.3s
+Epoch 3780: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3781: X_CE: 0.000 -- E_CE: 0.295 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3781: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3782: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3782: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3783: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3783: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3784: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3784: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3785: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3785: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3786: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3786: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3787: X_CE: 0.000 -- E_CE: 0.291 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3787: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3788: X_CE: 0.000 -- E_CE: 0.263 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3788: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3789: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3789: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3790: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3790: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3791: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3791: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3792: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3792: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3793: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3793: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3794: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3794: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3795: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3795: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3796: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3796: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3797: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3797: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3798: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3798: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3799: Val NLL 73627.26 -- Val Atom type KL 0.00 --  Val Edge type KL: 6846.46
+Val loss: 73627.2578 	 Best val loss:  73627.2578
+
+Training weights restored
+Epoch 3799, global step 476800: 'val/epoch_NLL' reached 73627.25781 (best 73627.25781), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3799.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3799: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 34.5s
+Epoch 3799: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3800: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3800: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3801: X_CE: 0.000 -- E_CE: 0.259 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3801: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3802: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3802: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3803: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3803: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3804: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3804: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3805: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3805: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3806: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3806: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3807: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3807: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3808: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3808: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3809: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3809: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3810: X_CE: 0.000 -- E_CE: 0.267 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3810: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3811: X_CE: 0.000 -- E_CE: 0.260 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3811: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3812: X_CE: 0.000 -- E_CE: 0.264 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3812: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3813: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3813: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3814: X_CE: 0.000 -- E_CE: 0.264 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3814: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3815: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3815: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3816: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3816: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3817: X_CE: 0.000 -- E_CE: 0.262 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3817: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3818: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3818: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3819: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3819: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3820: X_CE: 0.000 -- E_CE: 0.296 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3820: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3821: X_CE: 0.000 -- E_CE: 0.303 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3821: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3822: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3822: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3823: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3823: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3824: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3824: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3825: X_CE: 0.000 -- E_CE: 0.293 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3825: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3826: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3826: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3827: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3827: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3828: X_CE: 0.000 -- E_CE: 0.299 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.5s
+Epoch 3828: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3829: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3829: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3830: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3830: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3831: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3831: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3832: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3832: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3833: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3833: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3834: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3834: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3835: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.6s
+Epoch 3835: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3836: X_CE: 0.000 -- E_CE: 0.269 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3836: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3837: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3837: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3838: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3838: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3839: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3839: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3840: X_CE: 0.000 -- E_CE: 0.286 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3840: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3841: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3841: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3842: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3842: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3843: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3843: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3844: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3844: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3845: X_CE: 0.000 -- E_CE: 0.295 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.8s
+Epoch 3845: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3846: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3846: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3847: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3847: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3848: X_CE: 0.000 -- E_CE: 0.297 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3848: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3849: Val NLL 71103.51 -- Val Atom type KL 0.00 --  Val Edge type KL: 5993.88
+Val loss: 71103.5078 	 Best val loss:  71103.5078
+
+Training weights restored
+Epoch 3849, global step 480000: 'val/epoch_NLL' reached 71103.50781 (best 71103.50781), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3849.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3849: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 34.4s
+Epoch 3849: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3850: X_CE: 0.000 -- E_CE: 0.295 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3850: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3851: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3851: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3852: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3852: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3853: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3853: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3854: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3854: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3855: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3855: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3856: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3856: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3857: X_CE: 0.000 -- E_CE: 0.268 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3857: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3858: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3858: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3859: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3859: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3860: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3860: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3861: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3861: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3862: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3862: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3863: X_CE: 0.000 -- E_CE: 0.263 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3863: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3864: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3864: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3865: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3865: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3866: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3866: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3867: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3867: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3868: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3868: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3869: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3869: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3870: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3870: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3871: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3871: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3872: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3872: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3873: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3873: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3874: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.7s
+Epoch 3874: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3875: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3875: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3876: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3876: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3877: X_CE: 0.000 -- E_CE: 0.293 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3877: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3878: X_CE: 0.000 -- E_CE: 0.264 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3878: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3879: X_CE: 0.000 -- E_CE: 0.254 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3879: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3880: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.7s
+Epoch 3880: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3881: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3881: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3882: X_CE: 0.000 -- E_CE: 0.259 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3882: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3883: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3883: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3884: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3884: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3885: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3885: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3886: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3886: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3887: X_CE: 0.000 -- E_CE: 0.247 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3887: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3888: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3888: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3889: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3889: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3890: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3890: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3891: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3891: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3892: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3892: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3893: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3893: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3894: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3894: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3895: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3895: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3896: X_CE: 0.000 -- E_CE: 0.293 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3896: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3897: X_CE: 0.000 -- E_CE: 0.291 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3897: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3898: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3898: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3899: Val NLL 109079.95 -- Val Atom type KL 0.00 --  Val Edge type KL: 11812.70
+Val loss: 109079.9453 	 Best val loss:  71103.5078
+
+Training weights restored
+Epoch 3899, global step 483200: 'val/epoch_NLL' reached 109079.94531 (best 71103.50781), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3899.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3899: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 35.1s
+Epoch 3899: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3900: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3900: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3901: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3901: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3902: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3902: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3903: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3903: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3904: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3904: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3905: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3905: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3906: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3906: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3907: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3907: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3908: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3908: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3909: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3909: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3910: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3910: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3911: X_CE: 0.000 -- E_CE: 0.286 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3911: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3912: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3912: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3913: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.8s
+Epoch 3913: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3914: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3914: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3915: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3915: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3916: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3916: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3917: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3917: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3918: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3918: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3919: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3919: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3920: X_CE: 0.000 -- E_CE: 0.267 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3920: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3921: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3921: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3922: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3922: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3923: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3923: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3924: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3924: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3925: X_CE: 0.000 -- E_CE: 0.270 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3925: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3926: X_CE: 0.000 -- E_CE: 0.262 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3926: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3927: X_CE: 0.000 -- E_CE: 0.292 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3927: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3928: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3928: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3929: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3929: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3930: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3930: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3931: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3931: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3932: X_CE: 0.000 -- E_CE: 0.301 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.6s
+Epoch 3932: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3933: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3933: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3934: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3934: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3935: X_CE: 0.000 -- E_CE: 0.269 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3935: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3936: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3936: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3937: X_CE: 0.000 -- E_CE: 0.290 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3937: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3938: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3938: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3939: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3939: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3940: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3940: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3941: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3941: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3942: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3942: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3943: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3943: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3944: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.8s
+Epoch 3944: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3945: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.0s
+Epoch 3945: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3946: X_CE: 0.000 -- E_CE: 0.265 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3946: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3947: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.6s
+Epoch 3947: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3948: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3948: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3949: Val NLL 93849.55 -- Val Atom type KL 0.00 --  Val Edge type KL: 9217.87
+Val loss: 93849.5469 	 Best val loss:  71103.5078
+
+Training weights restored
+Epoch 3949, global step 486400: 'val/epoch_NLL' reached 93849.54688 (best 71103.50781), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3949.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3949: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 34.6s
+Epoch 3949: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3950: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3950: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3951: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3951: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3952: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3952: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3953: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3953: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3954: X_CE: 0.000 -- E_CE: 0.273 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.4s
+Epoch 3954: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3955: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3955: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3956: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3956: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3957: X_CE: 0.000 -- E_CE: 0.282 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3957: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3958: X_CE: 0.000 -- E_CE: 0.294 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3958: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3959: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3959: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3960: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3960: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3961: X_CE: 0.000 -- E_CE: 0.286 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3961: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3962: X_CE: 0.000 -- E_CE: 0.267 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3962: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3963: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3963: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3964: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3964: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3965: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3965: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3966: X_CE: 0.000 -- E_CE: 0.293 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3966: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3967: X_CE: 0.000 -- E_CE: 0.294 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3967: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3968: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.7s
+Epoch 3968: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3969: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3969: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3970: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.8s
+Epoch 3970: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3971: X_CE: 0.000 -- E_CE: 0.279 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3971: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3972: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3972: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3973: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3973: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3974: X_CE: 0.000 -- E_CE: 0.288 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3974: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3975: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3975: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3976: X_CE: 0.000 -- E_CE: 0.293 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.5s
+Epoch 3976: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3977: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3977: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3978: X_CE: 0.000 -- E_CE: 0.262 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.4s
+Epoch 3978: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3979: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3979: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3980: X_CE: 0.000 -- E_CE: 0.275 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3980: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3981: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.7s
+Epoch 3981: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3982: X_CE: 0.000 -- E_CE: 0.266 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3982: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3983: X_CE: 0.000 -- E_CE: 0.278 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3983: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3984: X_CE: 0.000 -- E_CE: 0.284 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.2s
+Epoch 3984: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3985: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3985: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3986: X_CE: 0.000 -- E_CE: 0.280 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.2s
+Epoch 3986: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3987: X_CE: 0.000 -- E_CE: 0.285 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.9s
+Epoch 3987: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3988: X_CE: 0.000 -- E_CE: 0.272 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3988: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3989: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3989: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3990: X_CE: 0.000 -- E_CE: 0.276 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 24.9s
+Epoch 3990: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3991: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.3s
+Epoch 3991: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3992: X_CE: 0.000 -- E_CE: 0.271 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.6s
+Epoch 3992: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3993: X_CE: 0.000 -- E_CE: 0.274 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.3s
+Epoch 3993: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3994: X_CE: 0.000 -- E_CE: 0.281 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.5s
+Epoch 3994: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3995: X_CE: 0.000 -- E_CE: 0.287 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.4s
+Epoch 3995: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3996: X_CE: 0.000 -- E_CE: 0.277 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.1s
+Epoch 3996: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3997: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 26.0s
+Epoch 3997: None -- None
+Starting train epoch...
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3998: X_CE: 0.000 -- E_CE: 0.289 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 25.1s
+Epoch 3998: None -- None
+Starting train epoch...
+EMA weights loaded
+Epoch 3999: Val NLL 89942.88 -- Val Atom type KL 0.00 --  Val Edge type KL: 8466.84
+Val loss: 89942.8750 	 Best val loss:  71103.5078
+
+Training weights restored
+Epoch 3999, global step 489600: 'val/epoch_NLL' reached 89942.87500 (best 71103.50781), saving model to '/home/ubuntu/hypergraph-generation/checkpoints/graph-tf-model_resume/epoch=3999.ckpt' as top 5
+>>> rank 0 writes in /home/ubuntu/hypergraph-generation
+Epoch 3999: X_CE: 0.000 -- E_CE: 0.283 -- y_CE: -1.000 -- 3-clique loss: -1.000 -- 4-clique loss: -1.000 -- learning rate: 0.00013803842646028838 -- 35.1s
+Epoch 3999: None -- None
+`Trainer.fit` stopped: `max_epochs=4000` reached.
+Testing the model after the pretraining phase...
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+Starting test...
+EMA weights loaded
+[34m[1mwandb[0m: Finishing previous runs because reinit is set to True.
