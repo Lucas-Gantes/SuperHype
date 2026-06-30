@@ -21,7 +21,7 @@ from src import utils
 
 
 class DiscreteDenoisingDiffusion(pl.LightningModule):
-    def __init__(self, cfg, dataset_infos, train_metrics, sampling_metrics, visualization_tools, extra_features,
+    def __init__(self, cfg, dataset_infos, train_metrics, sampling_metrics, extra_features,
                  domain_features, multifactor=False, num_node_labels=None, clique_loss_coef=None, 
                  model_type='XEyTransformer', kernel_coef=None, triplet_interactions=False, parallel_model=False, ema_decay=None,
                  single_layer=False):
@@ -90,7 +90,7 @@ class DiscreteDenoisingDiffusion(pl.LightningModule):
         self.train_metrics = train_metrics
         self.sampling_metrics = sampling_metrics
 
-        self.visualization_tools = visualization_tools
+        # self.visualization_tools = visualization_tools
         self.extra_features = extra_features
         self.domain_features = domain_features
 
@@ -1029,28 +1029,28 @@ class DiscreteDenoisingDiffusion(pl.LightningModule):
                 molecule_list.append([atom_types, edge_types])
 
         # Visualize chains
-        if self.visualization_tools is not None and (not self.multifactor):
-            self.print('Visualizing chains...')
-            current_path = os.getcwd()
-            num_molecules = chain_X.size(1)       # number of molecules
-            for i in range(num_molecules):
-                result_path = os.path.join(current_path, f'chains/{self.cfg.general.name}/'
-                                                         f'epoch{self.current_epoch}/'
-                                                         f'chains/molecule_{batch_id + i}')
-                if not os.path.exists(result_path):
-                    os.makedirs(result_path)
-                    _ = self.visualization_tools.visualize_chain(result_path,
-                                                                 chain_X[:, i, :].numpy(),
-                                                                 chain_E[:, i, :].numpy())
-                self.print('\r{}/{} complete'.format(i+1, num_molecules), end='', flush=True)
-            self.print('\nVisualizing molecules...')
+        # if self.visualization_tools is not None and (not self.multifactor):
+        #     self.print('Visualizing chains...')
+        #     current_path = os.getcwd()
+        #     num_molecules = chain_X.size(1)       # number of molecules
+        #     for i in range(num_molecules):
+        #         result_path = os.path.join(current_path, f'chains/{self.cfg.general.name}/'
+        #                                                  f'epoch{self.current_epoch}/'
+        #                                                  f'chains/molecule_{batch_id + i}')
+        #         if not os.path.exists(result_path):
+        #             os.makedirs(result_path)
+        #             _ = self.visualization_tools.visualize_chain(result_path,
+        #                                                          chain_X[:, i, :].numpy(),
+        #                                                          chain_E[:, i, :].numpy())
+        #         self.print('\r{}/{} complete'.format(i+1, num_molecules), end='', flush=True)
+        #     self.print('\nVisualizing molecules...')
 
-            # Visualize the final molecules
-            current_path = os.getcwd()
-            result_path = os.path.join(current_path,
-                                       f'graphs/{self.name}/epoch{self.current_epoch}_b{batch_id}/')
-            self.visualization_tools.visualize(result_path, molecule_list, save_final)
-            self.print("Done.")
+        #     # Visualize the final molecules
+        #     current_path = os.getcwd()
+        #     result_path = os.path.join(current_path,
+        #                                f'graphs/{self.name}/epoch{self.current_epoch}_b{batch_id}/')
+        #     self.visualization_tools.visualize(result_path, molecule_list, save_final)
+        #     self.print("Done.")
 
         return molecule_list
 

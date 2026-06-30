@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - override /general: general_erdos_test
+  - override /model: model_erdos_test
+  - override /train: train_erdos_test
+  - override /dataset: dataset_erdos_test
+

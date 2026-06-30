@@ -15,7 +15,6 @@ from collections import Counter
 import pickle
 from scipy.stats import chi2
 import math
-import graph_tool.all as gt
 from pathlib import Path
 
 import time

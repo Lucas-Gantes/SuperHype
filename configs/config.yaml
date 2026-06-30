@@ -1,11 +1,11 @@
 defaults:
     - _self_
-    - general : general_mesh
-    - model : model_mesh
+    - general : general_erdos_test
+    - model : model_erdos_test
     # - model : discrete
-    - train : train_mesh
+    - train : train_erdos_test
     # - augmentation_train : augment_sbm
-    - dataset : meshBookshelf
+    - dataset : erdos_test
     # - tuning : tuning_default
 
 hydra:

@@ -13,19 +13,20 @@ from scipy.sparse import diags, eye
 import pyemd
 from collections import Counter
 import math
-import graph_tool.all as gt
+# COMMENTED FOR A TEST
+# import graph_tool.all as gt
 from tqdm.auto import tqdm
 import time
 from networkx.algorithms import isomorphism as iso
 
 # Import stat functions from spectre_utils
-from src.analysis.spectre_utils import (
-    degree_stats, clustering_stats, spectral_stats,
-    motif_stats, orbit_stats_all,
-    eval_acc_sbm_graph, eval_acc_planar_graph,
-    eval_fraction_unique_non_isomorphic_valid,
-    eval_fraction_isomorphic
-)
+# from src.analysis.spectre_utils import (
+#     degree_stats, clustering_stats, spectral_stats,
+#     motif_stats, orbit_stats_all,
+#     eval_acc_sbm_graph, eval_acc_planar_graph,
+#     eval_fraction_unique_non_isomorphic_valid,
+#     eval_fraction_isomorphic
+# )
 
 def node_degree_wasserstein_graph(hg_train_list, hg_generated_list):
     """

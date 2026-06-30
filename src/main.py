@@ -6,7 +6,6 @@
 #########################################################################
 
 
-import graph_tool as gt
 import os
 import pathlib
 import warnings
@@ -46,10 +45,7 @@ def get_resume(cfg, model_kwargs):
     saved_cfg = cfg.copy()
     name = cfg.general.name + '_resume'
     resume = cfg.general.test_only
-    if cfg.model.type == 'discrete':
-        model = DiscreteDenoisingDiffusion.load_from_checkpoint(resume, **model_kwargs)
-    else:
-        model = LiftedDenoisingDiffusion.load_from_checkpoint(resume, **model_kwargs)
+    model = DiscreteDenoisingDiffusion.load_from_checkpoint(resume, **model_kwargs)
     cfg = model.cfg
     cfg.general.test_only = resume
     cfg.general.name = name
@@ -66,10 +62,8 @@ def get_resume_adaptive(cfg, model_kwargs):
 
     resume_path = os.path.join(root_dir, cfg.general.resume)
 
-    if cfg.model.type == 'discrete':
-        model = DiscreteDenoisingDiffusion.load_from_checkpoint(resume_path, **model_kwargs)
-    else:
-        model = LiftedDenoisingDiffusion.load_from_checkpoint(resume_path, **model_kwargs)
+    model = DiscreteDenoisingDiffusion.load_from_checkpoint(resume_path, **model_kwargs)
+
     new_cfg = model.cfg
 
     for category in cfg:
@@ -118,63 +112,48 @@ def freeze_layers(model, augmentation_cfg):
 def main(cfg: DictConfig):
     main_dir = get_original_cwd()
     dataset_config = cfg["dataset"]
-    custom_hgs = ["erdos", "sbm_custom", "ego", "hypertrees", "meshPiano", "meshBookshelf", "meshPlant"]
+    known_datasets = ["erdos", "sbm_custom", "ego", "hypertrees", "meshPiano", "meshBookshelf", "meshPlant"]
 
-    if dataset_config["name"] in ['sbm', 'comm20', 'planar', 'custom_dataset'] or dataset_config["name"] in custom_hgs:
-        from src.datasets.spectre_dataset import SpectreGraphDataModule, SpectreDatasetInfos
+    if dataset_config["name"] in known_datasets:
+        # from src.datasets.spectre_dataset import SpectreGraphDataModule, SpectreDatasetInfos
         from src.datasets.custom_dataset import CustomGraphDataModule, CustomDatasetInfos
         from src.datasets.custom_augmented_dataset import GraphAugmentedDataModule, CustomAugmentedDatasetInfos
-        from src.analysis.spectre_utils import PlanarSamplingMetrics, SBMSamplingMetrics, Comm20SamplingMetrics
+        # from src.analysis.spectre_utils import PlanarSamplingMetrics, SBMSamplingMetrics, Comm20SamplingMetrics
         from src.analysis.multi_label_sampling_metrics import MultiLabelSamplingMetrics
-        from src.analysis.visualization import NonMolecularVisualization
+        # from src.analysis.visualization import NonMolecularVisualization
 
-        if dataset_config["name"] == 'custom_dataset' or dataset_config["name"] in custom_hgs:
-            if dataset_config["data_augmentation"]:
-                print("Data augmentation will be used to train the model")
-                datamodule = GraphAugmentedDataModule(cfg, post_processing=dataset_config["post_processing"], change_rate=dataset_config["change_rate"])
-                dataset_infos = CustomAugmentedDatasetInfos(datamodule)
-            else:
-                print("The model will be trained without data augmentation")
-                datamodule = CustomGraphDataModule(cfg, post_processing=dataset_config["post_processing"])
-                dataset_infos = CustomDatasetInfos(datamodule, dataset_config)
-            multifactor = dataset_config["multilabel"]
-            num_node_labels = dataset_infos.nb_node_labels
+        if dataset_config["data_augmentation"]:
+            print("Data augmentation will be used to train the model")
+            datamodule = GraphAugmentedDataModule(cfg, post_processing=dataset_config["post_processing"], change_rate=dataset_config["change_rate"])
+            dataset_infos = CustomAugmentedDatasetInfos(datamodule)
         else:
-            print("Creating datamodule for spectre dataset")
-            datamodule = SpectreGraphDataModule(cfg)
-            dataset_infos = SpectreDatasetInfos(datamodule, dataset_config)
-            multifactor = False
-            num_node_labels = None
+            print("The model will be trained without data augmentation")
+            datamodule = CustomGraphDataModule(cfg, post_processing=dataset_config["post_processing"])
+            dataset_infos = CustomDatasetInfos(datamodule, dataset_config)
+        multifactor = dataset_config["multilabel"]
+        num_node_labels = dataset_infos.nb_node_labels
 
         if 'metrics' in cfg.general:
             metrics = cfg.general.metrics
         else:
             metrics = ['node_degree', 'edge_size', 'spectral', 'clique_size', 'uniqueness', 'novelty', 'nb_nodes', 'centrality_closeness', 'centrality_betweenness', 'centrality_harmonic']
         
-        if dataset_config['name'] == 'sbm':
-            print("Using SBM dataset")
-            sampling_metrics = SBMSamplingMetrics(datamodule)
-        elif dataset_config['name'] == 'comm20':
-            sampling_metrics = Comm20SamplingMetrics(datamodule)
-        elif dataset_config['name'] == 'custom_dataset' or dataset_config['name'] in custom_hgs:
-            sampling_metrics = MultiLabelSamplingMetrics(
-                datamodule,
-                ref_metrics=dataset_config['baseline'],
-                multicat=dataset_config["multilabel"],
-                compute_emd=False,
-                metrics_list=metrics,
-                post_processing=dataset_config["post_processing"],
-                data_augmentation=dataset_config["data_augmentation"]
-            )
-        else:
-            sampling_metrics = PlanarSamplingMetrics(datamodule)
+        sampling_metrics = MultiLabelSamplingMetrics(
+            datamodule,
+            ref_metrics=dataset_config['baseline'],
+            multicat=dataset_config["multilabel"],
+            compute_emd=False,
+            metrics_list=metrics,
+            post_processing=dataset_config["post_processing"],
+            data_augmentation=dataset_config["data_augmentation"]
+        )
 
-        train_metrics = TrainAbstractMetricsDiscrete() if cfg.model.type == 'discrete' else TrainAbstractMetrics()
-        visualization_tools = NonMolecularVisualization()
+        train_metrics = TrainAbstractMetricsDiscrete()
+        # visualization_tools = NonMolecularVisualization()
 
-        if cfg.model.type == 'discrete' and cfg.model.extra_features== 'cliques':
+        if cfg.model.extra_features== 'cliques':
             extra_features = CliqueComputation(dataset_info=dataset_infos,  clique_sizes=cfg.model.clique_sizes, algorithm=cfg.model.extra_features_algorithm)
-        elif cfg.model.type == 'discrete' and cfg.model.extra_features is not None:
+        elif cfg.model.extra_features is not None:
             extra_features = ExtraFeatures(cfg.model.extra_features, dataset_info=dataset_infos)
         else:
             extra_features = DummyExtraFeatures()
@@ -182,11 +161,7 @@ def main(cfg: DictConfig):
 
         print("Type of extra features:", type(extra_features))
 
-        if dataset_config["name"] == 'custom_dataset' or dataset_config["name"] in custom_hgs:
-            dataset_infos.compute_input_output_dims(extra_features=extra_features,
-                                                domain_features=domain_features)
-        else:
-            dataset_infos.compute_input_output_dims(datamodule=datamodule, extra_features=extra_features,
+        dataset_infos.compute_input_output_dims(extra_features=extra_features,
                                                 domain_features=domain_features)
         
         if 'clique_loss_coef' in dataset_config:
@@ -229,60 +204,12 @@ def main(cfg: DictConfig):
 
 
         model_kwargs = {'dataset_infos': dataset_infos, 'train_metrics': train_metrics,
-                        'sampling_metrics': sampling_metrics, 'visualization_tools': visualization_tools,
+                        'sampling_metrics': sampling_metrics, # 'visualization_tools': visualization_tools,
                         'extra_features': extra_features, 'domain_features': domain_features, 'multifactor': multifactor, 
                         'num_node_labels':num_node_labels, 'clique_loss_coef': clique_loss_coef, 'model_type': model_type, 
                         'kernel_coef': kernel_coef, 'triplet_interactions': triplet_interactions, 'parallel_model': parallel_model,
                         'ema_decay': ema_decay, 'single_layer': single_layer}
 
-    elif dataset_config["name"] in ['qm9', 'guacamol', 'moses']:
-        from src.metrics.molecular_metrics import TrainMolecularMetrics, SamplingMolecularMetrics
-        from src.metrics.molecular_metrics_discrete import TrainMolecularMetricsDiscrete
-        from src.diffusion.extra_features_molecular import ExtraMolecularFeatures
-        from src.analysis.visualization import MolecularVisualization
-
-        if dataset_config["name"] == 'qm9':
-            from datasets import qm9_dataset
-            datamodule = qm9_dataset.QM9DataModule(cfg)
-            dataset_infos = qm9_dataset.QM9infos(datamodule=datamodule, cfg=cfg)
-            train_smiles = qm9_dataset.get_train_smiles(cfg=cfg, train_dataloader=datamodule.train_dataloader(),
-                                                        dataset_infos=dataset_infos, evaluate_dataset=False)
-        elif dataset_config['name'] == 'guacamol':
-            from datasets import guacamol_dataset
-            datamodule = guacamol_dataset.GuacamolDataModule(cfg)
-            dataset_infos = guacamol_dataset.Guacamolinfos(datamodule, cfg)
-            train_smiles = None
-
-        elif dataset_config.name == 'moses':
-            from datasets import moses_dataset
-            datamodule = moses_dataset.MosesDataModule(cfg)
-            dataset_infos = moses_dataset.MOSESinfos(datamodule, cfg)
-            train_smiles = None
-        else:
-            raise ValueError("Dataset not implemented")
-
-        if cfg.model.type == 'discrete' and cfg.model.extra_features is not None:
-            extra_features = ExtraFeatures(cfg.model.extra_features, dataset_info=dataset_infos)
-            domain_features = ExtraMolecularFeatures(dataset_infos=dataset_infos)
-        else:
-            extra_features = DummyExtraFeatures()
-            domain_features = DummyExtraFeatures()
-
-        dataset_infos.compute_input_output_dims(datamodule=datamodule, extra_features=extra_features,
-                                                domain_features=domain_features)
-
-        if cfg.model.type == 'discrete':
-            train_metrics = TrainMolecularMetricsDiscrete(dataset_infos)
-        else:
-            train_metrics = TrainMolecularMetrics(dataset_infos)
-
-        # We do not evaluate novelty during training
-        sampling_metrics = SamplingMolecularMetrics(dataset_infos, train_smiles)
-        visualization_tools = MolecularVisualization(cfg.dataset.remove_h, dataset_infos=dataset_infos)
-
-        model_kwargs = {'dataset_infos': dataset_infos, 'train_metrics': train_metrics,
-                        'sampling_metrics': sampling_metrics, 'visualization_tools': visualization_tools,
-                        'extra_features': extra_features, 'domain_features': domain_features}
     else:
         raise NotImplementedError("Unknown dataset {}".format(cfg["dataset"]))
 
@@ -332,10 +259,7 @@ def main(cfg: DictConfig):
     #-----------------------------------------------------------------------
 
 
-    if cfg.model.type == 'discrete':
-        model = DiscreteDenoisingDiffusion(cfg=cfg, **model_kwargs)
-    else:
-        model = LiftedDenoisingDiffusion(cfg=cfg, **model_kwargs)
+    model = DiscreteDenoisingDiffusion(cfg=cfg, **model_kwargs)
 
     callbacks = []
     if cfg.train.save_model:
@@ -356,6 +280,8 @@ def main(cfg: DictConfig):
         print("[WARNING]: Run is called 'debug' -- it will run with fast_dev_run. ")
 
     use_gpu = cfg.general.gpus > 0 and torch.cuda.is_available()
+    devices = cfg.general.gpus if use_gpu else 1
+    strategy = "ddp_find_unused_parameters_true" if devices > 1 else "auto"
 
     print("Clip gradient value:", cfg.train.clip_grad)
 
@@ -367,9 +293,9 @@ def main(cfg: DictConfig):
 
     print("Creating the trainer...")
     trainer = Trainer(gradient_clip_val=cfg.train.clip_grad,
-                      strategy="ddp_find_unused_parameters_true",  # Needed to load old checkpoints
+                      strategy=strategy,
                       accelerator='gpu' if use_gpu else 'cpu',
-                      devices=cfg.general.gpus if use_gpu else 1,
+                      devices=devices,
                       detect_anomaly=cfg.general.detect_anomaly,  # Needed to debug NaN issues
                       max_epochs=cfg.train.n_epochs,
                       check_val_every_n_epoch=cfg.general.check_val_every_n_epochs,
@@ -440,9 +366,9 @@ def main(cfg: DictConfig):
                 freeze_layers(new_model, cfg.augmentation_train)
 
                 new_trainer = Trainer(gradient_clip_val=new_cfg.train.clip_grad,
-                                        strategy="ddp_find_unused_parameters_true",  # Needed to load old checkpoints
+                                        strategy=strategy,
                                         accelerator='gpu' if use_gpu else 'cpu',
-                                        devices=new_cfg.general.gpus if use_gpu else 1,
+                                        devices=devices,
                                         detect_anomaly=new_cfg.general.detect_anomaly,  # Needed to debug NaN issues
                                         max_epochs=new_cfg.train.n_epochs,
                                         check_val_every_n_epoch=new_cfg.general.check_val_every_n_epochs,

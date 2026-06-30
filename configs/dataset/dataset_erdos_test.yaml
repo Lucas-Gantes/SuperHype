@@ -1,0 +1,38 @@
+name: erdos
+remove_h: null
+datadir: 'data/erdos128x1_32_40_l5_flexible_num_nodes/'
+num_graphs: '128x1_32_40_l5_flexible_num_nodes'
+
+multilabel: true
+# post_processing:
+#   max_clique_size: 5
+post_processing: null
+
+data_augmentation: false
+# The proportion of the dataset to re-project at every epoch. 
+# To re-project all the dataset every time, set this parameter to None.
+change_rate: 0.5  
+
+samples_per_epoch: 128
+num_layers: 5
+
+clique_loss_coef: null
+model_type: 'MultiLayerXEyTransformer'
+
+baseline:
+  node_degree_wasserstein:
+    HYGENE: 0.475
+    HyperPLR: 1.592
+  edge_size_wasserstein:
+    HYGENE: 0.012
+    HyperPLR: 0.426
+  spectral:
+    HYGENE: 0.006
+    HyperPLR: 0.035
+  centrality_closeness:
+    HYGENE: 0.009
+  centrality_betweenness:
+    HYGENE: 2.6e-4
+  centrality_harmonic:
+    HYGENE: 2.127
+  

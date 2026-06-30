@@ -1,0 +1,6 @@
+# @package _global_
+defaults:
+  - override /general: general_erdos
+  - override /model: model_erdos
+  - override /train: train_erdos
+  - override /dataset: erdos
